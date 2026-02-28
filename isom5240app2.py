@@ -19,7 +19,7 @@ def main():
   # Streamlit UI
   st.write("Title: Age Classification using ViT")
 
-  age_predictions = age_Classifier("middleagedMan.jpg", "dima806/fairface_age_image_detection")
+  age_predictions = ageClassifier("middleagedMan.jpg", "dima806/fairface_age_image_detection")
   st.write(age_predictions)
   
   # Display results
